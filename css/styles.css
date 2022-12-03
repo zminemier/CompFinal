@@ -620,7 +620,7 @@ h2 {
   .header p {font-size: 30px;}
   .aboutcontainer {grid-row: 3/5; grid-column: 1/2;}
   .aboutmaintext {grid-row: 3/5; grid-column: 2/3; padding: 10px 30px;}
-  .aboutlayout {height: 218vh;}
+  .aboutlayout {height: 250vh;}
   .pagelayout {grid-template-rows: .2fr .4fr 8fr;}
   }
   
