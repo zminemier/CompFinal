@@ -1,4 +1,4 @@
-# zminemier.github.io
+# zminemier.CompFinal
 Created by: Zach Minemier, John Stoehr, Nick Mann, and Claudio Sanchez
 
 Be sure to click all buttons 
