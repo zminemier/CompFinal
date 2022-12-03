@@ -596,3 +596,34 @@ h2 {
   border: 2px solid black;
   position: bottom 0;
 }
+
+@media (min-width: 900px) {
+  .rate1 {grid-column: 1/2;}
+  .review1{grid-column: 1/2; grid-row: 2/4;}
+  .photo1 {grid-row: 1/4; grid-column: 2/4;}
+  .rate2 {grid-column: 2/3;}
+  .review2 {grid-column: 2/3; grid-row: 2/5;}
+  .photo2 {grid-column: 1/2; grid-row: 1/5;}
+  .homelayout {grid-template-columns: 1fr 1fr 1fr 1fr;}
+  .circle {grid-column: 4/5; grid-row: 2/4; margin-top: 15%; height: 90%; border-radius: 250px 0px 0px 250px;}
+  .circle2 {grid-row: 2/4; margin-top: 15%; height: 90%; border-radius: 0px 250px 250px 0px;}
+  .circletext {margin-top: 80%; font-size: xx-large;}
+  .circletext2 {margin-top: 80%;}
+  .header {grid-column: 2/4; margin-left: 0%; margin-top: 13%;}
+  .navbar {grid-column: 1/5;}
+  .shoes {grid-column: 2/4; grid-row: 3/4; width: 75%; margin-left: 12.5%;}
+  .divider {grid-column: 1/5; border-radius: 50px 50px 0 0;}
+  .secondphoto {grid-column: 1/3;}
+  .blurb {grid-column: 3/5;}
+  .contactinfo {grid-column: 1/5;}
+  .header h1 {font-size: 60px;}
+  .header p {font-size: 30px;}
+  .aboutcontainer {grid-row: 3/5; grid-column: 1/2;}
+  .aboutmaintext {grid-row: 3/5; grid-column: 2/3; padding: 10px 30px;}
+  .aboutlayout {height: 218vh;}
+  .pagelayout {grid-template-rows: .2fr .4fr 8fr;}
+  }
+  
+  @media (min-width: 1100px) {
+    .aboutmaintext {padding: 80px 80px;}
+  }
